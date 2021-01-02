@@ -5,10 +5,15 @@ This is a workout tracking application that helps you keep track of your workout
 ---
 <br>
 
+[LIVE ON HEROKU](https://stark-brook-49785.herokuapp.com/stats)
+
+<br>
+
 ### Table of Contents
 - [Screen Shots](#screen-shots)
 - [User Story](#user-story)
 - [Business Context](#business-context)
+- [Technologies](#technologies)
 - [Usage](#usage)
 - [References](#references)
 - [License](#license)
@@ -16,7 +21,6 @@ This is a workout tracking application that helps you keep track of your workout
 
 ---
 <br>
-
 
 ### Screen Shots
 - Landing Page
@@ -45,19 +49,31 @@ A user will reach their fitness goals more quickly when they track their workout
 ---
 <br>
 
-### How To Use
+### Technologies
+- HTML5
+- CSS3
+- Javascript
+- Semantic UI
+- Node.js
+- Express
+- Mongodb
+- Mongooes
+- MVC
 
-This application is running on a webpage deployed on Heroku. When the user loads the page, they should be given the option to create a new workout or continue with their last workout.
+---
+<br>
 
-The user should be able to:
+### Usage
 
-  * Add exercises to the most recent workout plan.
+This application is running on a webpage deployed on Heroku. When the user loads the page, users can see their lastest data and have the option to create workout or continue workout. Users can also see their progress in the dashboard.
+
+The user is able to:
+
+  * Add exercises to the current workout plan.
 
   * Add new exercises to a new workout plan.
 
-  * View the combined weight of multiple exercises from the past seven workouts on the `stats` page.
-
-  * View the total duration of each workout from the past seven workouts on the `stats` page.
+  * Users can view their progress in the dashbord for 7 days.
 
 [Back To The Top](#Workout-Tracker)
 
